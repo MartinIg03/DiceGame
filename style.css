@@ -4,6 +4,23 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 100px;
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
 }
 
 html {
